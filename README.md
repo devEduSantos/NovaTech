@@ -1,2 +1,212 @@
-# NovaTech
-*{     margin: 0;     padding: 0;     box-sizing: border-box;     font-family: "Ubuntu", sans-serif;      } body{     height: 120vh;     background-color: #F9FAFB; } .container-center{     max-width: 1280px;     margin: 0 auto;     padding: 20px 0;     display: flex;     gap: 50px;     justify-content: space-between; } .container-center h2{     font-size: 42px; } .container-center ul {     display: flex;     gap: 40px;     align-items: center; } .container-center ul li{     list-style: none;  } .container-center ul a{     text-decoration: none;     color: #6B7280;     font-weight: 500;     font-size: 18px;     transition: 0.3s; } .container-center ul a:hover{     transition: 0.3s;     color: #7C3AED;     transform: translateY(-2px);      } header{     width: 100%;     padding: 5px; }  /* main content */ main{     width: 100%;     padding: 20px 0;     height: 100vh;     display: flex;     flex-direction: column;     align-items: center;     justify-content: center ;     position: relative;   background: radial-gradient(     circle at top right,     rgba(124, 58, 237, 0.18),     transparent 60%   ),   radial-gradient(     circle at bottom left,     rgba(37, 99, 235, 0.18),     transparent 60%   ); } .container-center-main{     max-width: 1280px;     margin: 0 auto;     padding: 120px 0;  } .main-content{     display: flex;     flex-direction: column;     justify-content: center;     align-items: center;     gap: 20px; } .main-content h1{     font-size: 48px;     color: #111827;     text-align: center; } .main-content p{     color: #6B7280; } .main-content a{      background: linear-gradient(135deg, #2563EB, #7C3AED);     background-size: 200% 200%;     color: #ffffff;     border: none;     border-radius: 8px;     padding: 14px 28px;     font-size: 1rem;     font-weight: 500;     cursor: pointer;     transition: transform 0.3s ease;     text-decoration: none; } @keyframes gradientMove {   0% {     background-position: 0% 50%;   }   50% {     background-position: 100% 50%;   }   100% {     background-position: 0% 50%;   } } .main-content a:hover{     animation: gradientMove 3s ease infinite;     transform: translateY(-2px); }  /* services */ .container-center-services{     max-width: 1280px;     margin: 0 auto;     padding: 50px 0;     display: flex; } .services{     width: 100%;     padding: 50px 0; } .services-cards{     display: flex;     gap: 50px;     justify-content: space-between;     width: 100%; } .card{     width: 33%;     padding: 20px 0;     text-align: center;  } .card h2{     font-size: 24px;     color: #111827;     margin: 20px 0;     line-height: 1.5; }     /* pricing */ .pricing-plans{     background-color: #F9FAFB; } .option{     display: flex;     gap: 8px; } .container-center-pricing{     max-width: 1280px;     margin: 0 auto;     padding: 50px 0; } .pricing-cards{     display: flex;     gap: 30px;     justify-content: space-between; } .pricing-card{     width: 33%;     background-color: #FFFFFF;     padding: 30px 20px;     border-radius: 8px;     text-align: center;     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); } .subs{     margin-top: 20px;     background: linear-gradient(135deg, #2563EB, #7C3AED);     background-size: 200% 200%;     color: #ffffff;     border: none;     border-radius: 8px;     padding: 14px 28px;     font-size: 1rem;     font-weight: 500;     cursor: pointer;     transition: transform 0.3s ease; } .subs:hover{     animation: gradientMove 3s ease infinite;     transform: translateY(-2px); } .plan-head{     font-size: 32px;     text-align: left;     color: #111827;     margin-bottom: 10px; } .price{     font-size: 28px;     color: #7C3AED;     text-align: left;     margin-bottom: 20px; } .options{     display: flex;     flex-direction: column;     gap: 15px; } .pro{     background-color: #111827;     color: #ffffff; } .pro .plan-head{     color: #FFFFFF; } .pro .price{     color: #2563EB; } .pro button.subs{     background: linear-gradient(135deg, #FFFFFF, #D1D5DB);     color: #111827; }  /* final call */  .final-call{     width: 100%;     padding: 60px 0;     background-color: #2563EB;     display: flex;     justify-content: center;     align-items: center;     color: white; } .final-call .container-center-final{     max-width: 1280px;     margin: 0 auto;     text-align: center; } .container-center-final h2{     font-size: 36px;     margin-bottom: 50px; } .container-center-final .btn-primary{     background: linear-gradient(135deg, #FFFFFF, #D1D5DB);     color: #111827;     border: none;     border-radius: 8px;     padding: 14px 28px;     font-size: 1rem;     font-weight: 500;     cursor: pointer;     text-decoration: none;     transition: transform 0.3s ease; } .container-center-final .btn-primary:hover{     transform: translateY(-2px); }  /* footer */ footer{     width: 100%;     padding: 20px 0;     background-color: #111827;     color: #9CA3AF;     text-align: center; } .container-center-footer{     max-width: 1280px;     margin: 0 auto;     display: flex;     gap: 15px;     justify-content: center;     align-items: center; }  /* medias queries */ @media (max-width: 1024px){     .container-center{         flex-direction: column;         align-items: center;     }     .services-cards, .pricing-cards{         flex-direction: column;         align-items: center;     }     .card, .pricing-card{         width: 80%;     } } @media (max-width: 600px){     .main-content h3{         text-align: center;     }     .card, .pricing-card {         width: 90%;     } } @media (max-width: 400px){     .container-center-footer{         flex-direction: column;     } }
+# 🚀 NovaTech — Website Institucional
+
+> Projeto profissional de website institucional para empresa de tecnologia fictícia, criado com foco em **UI moderna**, **conversão**, **responsividade** e **boas práticas de front-end**.
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![Responsive](https://img.shields.io/badge/responsivo-sim-green)
+
+---
+
+## 🌐 Live Preview
+
+> _(em breve)_
+
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto foi criado como parte da minha jornada para me tornar um **desenvolvedor web freelancer**, focando em sites institucionais modernos, com identidade forte, usabilidade e orientação à conversão.
+
+A marca fictícia **NovaTech** representa uma empresa de tecnologia especializada em soluções digitais sob medida.
+
+---
+
+## 🧠 Conceito da Marca
+
+A NovaTech foi pensada para transmitir:
+
+✔️ Inovação
+✔️ Tecnologia
+✔️ Confiança
+✔️ Profissionalismo
+✔️ Performance
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Google Fonts (Ubuntu)
+- SVGs inline
+- Animações com CSS
+- Gradientes modernos
+- Flexbox
+- Media Queries
+
+---
+
+## 🎨 Design & UI
+
+O layout segue padrões modernos de landing pages SaaS e empresas tech:
+
+- Paleta: Azul + Roxo
+- Gradientes suaves
+- Tipografia limpa
+- Cards minimalistas
+- Microinterações
+- Hierarquia visual bem definida
+
+---
+
+## 📐 Estrutura do Site
+
+- **Header** – Logo + navegação
+- **Hero Section** – Headline, subheadline e CTA
+- **Serviços** – Cards com ícones SVG
+- **Planos** – Tabela de preços com destaque
+- **CTA Final** – Conversão
+- **Footer** – Branding
+
+---
+
+## 📱 Responsividade
+
+O site é adaptado para:
+
+- Desktop
+- Tablets
+- Smartphones
+
+Utilizando:
+
+- Layout fluido
+- Flexbox
+- Breakpoints
+
+---
+
+## ✨ Funcionalidades Implementadas
+
+- Botões com gradiente animado
+- Hover effects
+- Cards informativos
+- Destaque de plano principal
+- Background com gradiente radial
+- Layout responsivo
+
+---
+
+## 📸 Preview
+
+> _(adicione screenshots aqui)_
+
+---
+
+## 📈 Linha do Tempo do Projeto
+
+### v1.0
+
+- Estrutura inicial
+- Header
+- Hero
+
+### v2.0
+
+- Seção de serviços
+- Cards
+- Ícones SVG
+
+### v3.0
+
+- Planos e preços
+- CTA final
+- Footer
+
+### v4.0 (Atual)
+
+- Responsividade
+- Animações
+- Polimento visual
+
+---
+
+## 🧠 Aprendizados
+
+- Construção de landing pages profissionais
+- Pensamento comercial no layout
+- Hierarquia visual
+- Microinterações
+- Organização de código
+
+---
+
+## 🚧 Próximas Melhorias
+
+- [ ] Página de contato
+- [ ] Página sobre
+- [ ] Formulário funcional (JS)
+- [ ] Dark mode
+- [ ] SEO
+- [ ] Acessibilidade
+- [ ] Performance
+
+---
+
+## 🎯 Objetivo Profissional
+
+Este projeto é parte do meu portfólio profissional como **Web Developer Freelancer**, focado em:
+
+- Landing pages
+- Sites institucionais
+- Portfólios
+- Sites de serviços
+
+---
+
+## 📂 Como Rodar
+
+```bash
+git clone https://github.com/seu-usuario/novatech
+```
+
+Abra o arquivo `index.html` no navegador.
+
+---
+
+## 📬 Contato
+
+_(em breve)_
+
+---
+
+# 🇺🇸 English Version
+
+## NovaTech — Institutional Website
+
+Professional institutional website project for a fictional tech company, focused on **modern UI**, **conversion**, **responsiveness**, and **best front-end practices**.
+
+### Goals
+
+- Build a strong portfolio piece
+- Showcase UI/UX skills
+- Demonstrate responsive layouts
+- Apply modern design patterns
+
+### Tech Stack
+
+- HTML5
+- CSS3
+- Flexbox
+- Animations
+- Gradients
+
+### Status
+
+🚧 In development
+
+---
+
+If you are a recruiter or client, feel free to reach out!
